@@ -7,7 +7,7 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 export default function ItemsAccordion({items}) {
   return (
-    <div style={{maxWidth: '70vw', minWidth: '50vw'}}>
+    <div data-test="accordion-wrapper" style={{maxWidth: '70vw', minWidth: '50vw'}}>
         {
             items.map((item) => {
                 return (
